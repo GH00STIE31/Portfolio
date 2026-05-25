@@ -66,10 +66,10 @@
     .hero-avatar {
       width: 250px; height: 250px;
       border-radius: 50%;
-      background: linear-gradient(135deg, var(--primary), #FF6B9D);
+      background: linear-gradient(0deg, #A68A75);
       display: flex; align-items: center; justify-content: center;
       font-size: 5rem; flex-shrink: 0;
-      box-shadow: 0 0 60px rgba(108,99,255,0.3);
+      box-shadow: 0 0 60px rgba(0,0,0,0.3);
     }
 
     /* Buttons */
@@ -119,7 +119,7 @@
     .project-card .btn { font-size: 0.9rem; padding: 0.5rem 1.2rem; }
     .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
     .tag {
-      background: rgba(108,99,255,0.2); color: var(--primary);
+      background: rgba(0,0,0,0.2); color: var(--primary);
       padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.8rem; font-weight: 500;
     }
 
@@ -174,7 +174,7 @@
       <button class="menu-toggle" onclick="toggleMenu()">☰</button>
       <ul class="nav-links" id="navLinks">
         <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#projects">Experiences</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -183,90 +183,69 @@
 
   <section class="hero">
     <div class="hero-text">
-      <h1>Hi, I'm <span class="highlight">Muhammad Ghozy Anawdrie</span></h1>
-      <p class="subtitle">Aspiring Web Developer & Designer</p>
-      <p>I build beautiful, functional websites and love turning ideas into real, working code. Always learning, always creating.</p>
+      <h1>Greetings, I'm <span class="highlight">Muhammad Ghozy Anawdrie</span></h1>
+      <p class="subtitle">Senior High School Student</p>
+      <p>I love studying biology and I aspire to be a doctor</p>
       <div>
-        <a href="#projects" class="btn">View My Work</a>
+        <a href="#projects" class="btn">View My Experiences</a>
         <a href="#contact" class="btn btn-outline">Get In Touch</a>
       </div>
     </div>
-    <div class="hero-avatar">👩‍💻</div>
+    <div class="hero-avatar">
+      <style>
+        img{
+          width: 250px; height: 250px; border-radius: 100%;
+        }
+      </style>
+      <img src="https://raw.githubusercontent.com/GH00STIE31/Portfolio/refs/heads/main/image.png">
+    </div>
   </section>
 
   <section id="about">
     <h2>About Me</h2>
     <div class="about-text">
-      <p>I'm a passionate web developer who loves creating clean, user-friendly websites. I started coding in high school and haven't stopped since!</p>
-      <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or learning about UI/UX design.</p>
+      <p>I'm a passionate high school student who loves studying biology.</p>
+      <p>When I'm not studying, you can find me playing various games, such as MLBB, NTE, Forza Horizon 6, and Deadlock</p>
       <div class="about-stats">
-        <div class="stat"><div class="number" id="projectCount">0</div><div class="label">Projects</div></div>
-        <div class="stat"><div class="number">2+</div><div class="label">Years Learning</div></div>
+        <div class="stat"><div class="number" id="projectCount">0</div><div class="label">Experiences</div></div>
         <div class="stat"><div class="number">∞</div><div class="label">Curiosity</div></div>
       </div>
     </div>
   </section>
 
   <section id="projects">
-    <h2>My Projects</h2>
+    <h2>My Experiences</h2>
     <div class="projects-grid" id="projectsGrid">
       <div class="project-card">
-        <h3>🏪 E-Commerce Landing Page</h3>
-        <p>A responsive, modern landing page for an online store built with HTML, CSS, and JavaScript.</p>
+        <h3>Top Japanese Leaderboard Hero Chip MLBB 🎌</h3>
+        <p>Reached Japanese leaderboard for the hero Chip in MLBB</p>
         <div class="tags">
-          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+          <span class="tag">S34</span><span class="tag">S33</span><span class="tag">S32</span>
         </div>
-        <a href="#" class="btn">View Project →</a>
       </div>
       <div class="project-card">
-        <h3>📝 Task Manager App</h3>
-        <p>A simple to-do list application with local storage support — no backend needed!</p>
+        <h3>English Competition Gold Medalist</h3>
+        <p>Won a gold medal for ORC English division</p>
         <div class="tags">
-          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS (LocalStorage)</span>
+          <span class="tag">ORC</span><span class="tag">Gold</span><span class="tag">English</span>
         </div>
-        <a href="#" class="btn">View Project →</a>
-      </div>
-      <div class="project-card">
-        <h3>🎨 Color Palette Generator</h3>
-        <p>Generate beautiful color palettes with a single click. Perfect for designers and developers.</p>
-        <div class="tags">
-          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
-        </div>
-        <a href="#" class="btn">View Project →</a>
       </div>
     </div>
   </section>
 
   <section id="skills">
-    <h2>Skills & Tools</h2>
+    <h2>Skills</h2>
     <div class="skills-container">
-      <div class="skill-category">
-        <h3>🌐 Frontend</h3>
-        <div class="skill-list">
-          <span class="skill-item">HTML5</span>
-          <span class="skill-item">CSS3</span>
-          <span class="skill-item">JavaScript</span>
-          <span class="skill-item">Responsive Design</span>
-          <span class="skill-item">Flexbox</span>
-          <span class="skill-item">Grid</span>
-        </div>
       </div>
       <div class="skill-category">
         <h3>🛠️ Tools</h3>
         <div class="skill-list">
-          <span class="skill-item">Git & GitHub</span>
+          <span class="skill-item">GitHub</span>
           <span class="skill-item">VS Code</span>
-          <span class="skill-item">Figma</span>
-          <span class="skill-item">Chrome DevTools</span>
+          <span class="skill-item">Microst Office</span>
+          <span class="skill-item">Canva</span>
         </div>
       </div>
-      <div class="skill-category">
-        <h3>📚 Learning</h3>
-        <div class="skill-list">
-          <span class="skill-item">Python</span>
-          <span class="skill-item">React (soon!)</span>
-          <span class="skill-item">Node.js (soon!)</span>
-        </div>
       </div>
     </div>
   </section>
@@ -274,14 +253,13 @@
   <section id="contact">
     <h2>Get In Touch</h2>
     <div class="contact-links">
-      <a href="mailto:your.email@example.com" class="contact-link">📧 Email Me</a>
-      <a href="https://github.com/yourusername" target="_blank" class="contact-link">💻 GitHub</a>
-      <a href="#" class="contact-link">💼 LinkedIn</a>
+      <a href="mailto:ghozyanawdrie1234@gmail.com" class="contact-link">📧 Email Me</a>
+      <a href="https://github.com/GH00STIE31" target="_blank" class="contact-link">💻 GitHub</a>
     </div>
   </section>
 
   <footer>
-    <p>© <span id="currentYear"></span> Your Name — Built with 💜 and vanilla code</p>
+    <p>© <span id="currentYear"></span> Muhammad Ghozy Anawdrie</p>
   </footer>
 
   <script>
