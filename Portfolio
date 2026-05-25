@@ -194,10 +194,10 @@
     <div class="hero-avatar">
       <style>
         img{
-          width: 250px; height: 250px; border-radius: 100%;
+          width: 200px; height: 250px; border-radius: 100%;
         }
       </style>
-      <img src="https://raw.githubusercontent.com/GH00STIE31/Portfolio/refs/heads/main/image.png">
+      <img src="https://raw.githubusercontent.com/GH00STIE31/Portfolio/refs/heads/main/image%202.png">
     </div>
   </section>
 
